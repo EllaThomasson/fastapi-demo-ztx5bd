@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-### Gitpod
+### Gitpod - is the way I will edit my project
 
 The easiest way to start working is to append `https://gitpod.io/#` before the URL of your GitHub repository. This should look something like (but use the URL of your fork):
 
