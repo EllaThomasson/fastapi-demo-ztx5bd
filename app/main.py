@@ -19,10 +19,13 @@ app = FastAPI()
 def read_root():
     return {"Hello": "World"}
 
-@app.get("/")
+@app.get("/hello2")
 def get_message():
     return {'Hello': 'Ella'}
-     
+
+@app.get("/hello3")
+def get_message():
+    return {'Hello': 'Neal'}
 
 @app.get("/github/repos/{user}")
 def github_user_repos(user): 
